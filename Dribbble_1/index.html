@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*-- Navigation --*/
+        ul {
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+            background-color: #fff;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #4b4b4b;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            color: #000;
+        }
+
+        .right {
+            float: right;
+            margin-right: 50px;
+            background-color: #30c876;
+        }
+
+        .right a {
+            color: #FFF;
+        }
+
+        /*-- End Navigation --*/
+
+        /*-- Jumbotron --*/
+        .jumbotron {
+            height: 350px;
+            background: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("main-banner.jpg");
+            text-align: left;
+            padding-left: 150px;
+            opacity: 0.8;
+        }
+
+        h2 {
+            margin: 0;
+            padding-top: 100px;
+        }
+
+        /*-- End Jumbotron --*/
+
+        /*-- Gallery --*/
+        .gallery {
+            display: flex;
+            justify-content: center;
+        }
+
+        .gallery-heading {
+            text-align: center;
+            padding: 0;
+            margin: 50px 0px;
+        }
+
+        .card {
+            margin: 0 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <ul>
+        <li><a href="#">PREMIUM TEMPLATES</a></li>
+        <li><a href="#">CLUB</a></li>
+        <li><a href="#">MY ACCOUNT</a></li>
+        <li class="right"><a href="#">JOIN TO<br>DOWNLOAD</a></li>
+    </ul>
+    <!-- End Navigation -->
+
+    <!-- Banner -->
+    <div class="jumbotron">
+        <h2>Pixel-perfect & handcrafted <strong>Elementor Pro</strong> landing page templates.</h2>
+        <p>Collection of professionally designed & tested premium landing pages for your next product launch or site
+            launch.</p>
+        <button>VIEW ALL TEMPLATES</button>
+        <button>JOIN TO DOWNLOAD</button>
+    </div>
+    <!-- End Banner -->
+
+    <!-- Gallery -->
+    <h2 class="gallery-heading">LATEST PREMIUM TEMPLATES</h2>
+    <div class="gallery">
+        <div class="card">
+            <img src="eatery.jpg" alt="">
+            <div class="card-content">
+                <p>Nutritionist - $15</p>
+                <button>View Demo</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="eatery.jpg" alt="">
+            <div class="card-content">
+                <p>Nutritionist - $15</p>
+                <button>View Demo</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="eatery.jpg" alt="">
+            <div class="card-content">
+                <p>Nutritionist - $15</p>
+                <button>View Demo</button>
+            </div>
+        </div>
+    </div>
+    <!-- End Gallery -->
+</body>
+
+</html>
